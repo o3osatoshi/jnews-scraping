@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "jnews-scraping"
+version = "1.0.0"
+description = ""
+authors = ["o3osatoshi"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+bs4 = "^0.0.2"
+python-dotenv = "^1.0.1"
+chardet = "^5.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
